@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+/*
+Barvy:
+czechitas růžová: #e5007d
+czechitas modrá: #273582
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+/* Pod tento řádek budeme psát kód */
+h1,
+h2,
+h3 {
+  color: #0d46a0;
+  text-align: center;
+  font-family: Raleway;
+}
+a {
+  color: #ffea00;
+  font-style: italic;
+}
+
+a:hover {
+  color: #0d46a0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.obsah {
+  padding-top: 24px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  color: #ffea00;
+  font-family: Raleway;
+  list-style: none;
+}
+
+.zahlavi ul {
+  display: flex;
+}
+
+.zahlavi li {
+  width: 50%;
+  list-style: none;
+  text-align: left;
+}
+
+.navigace {
+  color: #ffea00;
+  font-family: Raleway;
+  list-style: none;
+  font-size: 12px;
+}
+
+.navigace ul {
+  display: flex;
+}
+
+.navigace li {
+  width: 33.333%;
+  list-style: none;
+  text-align: right;
+}
+
+.aboutme {
+  background-color: #0d46a0;
+  text-align: center;
+  color: #ffffff;
+  padding: 25px;
+}
+
+.aboutme h1 {
+  color: #ffffff;
+}
+/*-- border-radius:50px */
+
+.aboutme img {
+  border-radius:100px;
+}
+
+.hobbies {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.hobbies h2 {
+  padding-top: 25px;
+}
+
+.vedle {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vedle li {
+  width: 50%;
+  padding: 15px;
+}
+
+.vedle img {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.vedlesebe {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vedlesebe li {
+  width: 25%;
+  padding: 5px;
+}
+
+.kontakt {
+  list-style: none;
+  text-align: center;
+}
+
+.kontakt ul {
+  display: flex;
+}
+
+.kontakt li {
+  width: 50%;
+  list-style: none;
+  text-align: left;
+}
+
+.kontakt img {
+  max-width: 50%;
+}
+
+footer {
+  background-color: #0d46a0;
+  text-align: center;
+  color: #ffffff;
+  padding: 25px;
+
+}
+footer a {
+  color: #ffea00;
+}
+
