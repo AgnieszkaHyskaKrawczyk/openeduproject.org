@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:900');
 /*
-Barvy:
-czechitas růžová: #e5007d
-czechitas modrá: #273582
+
 */
 
 * {
@@ -23,10 +21,6 @@ h3 {
   color: #0d46a0;
   text-align: center;
   font-family: Raleway;
-}
-a {
-  color: #ffea00;
-  font-style: italic;
 }
 
 a:hover {
@@ -72,21 +66,29 @@ img {
   text-align: left;
 }
 
-.navigace {
+.header {
+  text-align: center;
+}
+
+nav {
+  display: block;
+}
+.nav {
   color: #ffea00;
   font-family: Raleway;
   list-style: none;
+  line-height: 1.4;
   font-size: 12px;
-}
-
-.navigace ul {
   display: flex;
-}
-
-.navigace li {
-  width: 33.333%;
-  list-style: none;
-  text-align: right;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  border-bottom: 1px solid #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ffffff;
 }
 
 .aboutme {
@@ -141,6 +143,11 @@ img {
 .vedlesebe li {
   width: 25%;
   padding: 5px;
+}
+
+.vedlesebe img {
+  max-width: 40%;
+  max-height: 40%;
 }
 
 .kontakt {
